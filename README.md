@@ -42,3 +42,12 @@ Classes:
 - Data Augmentation
 - Transfer Learning
 - Hyperparameter tuning
+
+## Note:-
+model.pth file cannot be viewed directly, but can load in Pytorch.
+
+by using the code:-
+- model = CNN(len(classes))
+- model.load_state_dict(torch.load("/content/drive/MyDrive/ML_Project_NEU/model.pth"))
+- model.eval()
+  
